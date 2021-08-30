@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "app-lib",
+  "name": "@mono/app-lib",
   "author": "Ender Bonnet",
   "module": "dist/app-lib.esm.js",
   "size-limit": [

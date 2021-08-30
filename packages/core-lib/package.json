@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "core-lib",
+  "name": "@mono/core-lib",
   "author": "Ender Bonnet",
   "module": "dist/core-lib.esm.js",
   "size-limit": [
