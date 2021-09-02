@@ -1,6 +1,9 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "name": "@mono/core-lib",
+  "author": "Ender Bonnet",
+  "module": "dist/core-lib.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -36,9 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@mono/core-lib",
-  "author": "Ender Bonnet",
-  "module": "dist/core-lib.esm.js",
   "size-limit": [
     {
       "path": "dist/core-lib.cjs.production.min.js",

@@ -1,6 +1,9 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "name": "@mono/app-lib",
+  "author": "Ender Bonnet",
+  "module": "dist/app-lib.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -36,9 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@mono/app-lib",
-  "author": "Ender Bonnet",
-  "module": "dist/app-lib.esm.js",
   "size-limit": [
     {
       "path": "dist/app-lib.cjs.production.min.js",

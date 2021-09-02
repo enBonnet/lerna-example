@@ -9,6 +9,14 @@
   "scripts": {
     "build": "lerna run build",
     "start": "lerna run start",
+    "dev": "lerna run start --parallel",
+    "test": "lerna run test",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "build:core": "lerna run build --scope @mono/core-lib",
+    "build:app": "lerna run build --scope @mono/app-lib",
+    "dev:core": "lerna run start --scope @mono/core-lib",
+    "dev:app": "lerna run start --scope @mono/app-lib",
     "dev:playground": "cd playground && yarn start"
   },
   "devDependencies": {

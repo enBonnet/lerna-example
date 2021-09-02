@@ -1,5 +1,5 @@
 import React, { FC, HTMLAttributes, ReactChild } from 'react';
-import { Thing as Core } from '@mono/core-lib';
+import { Core } from '@mono/core-lib';
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   /** custom content, defaults to 'the snozzberries taste like snozzberries' */
@@ -12,5 +12,5 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
  * A custom Thing component. Neat!
  */
 export const Thing: FC<Props> = ({ children }) => {
-  return <Core>{children || `super core`}</Core>;
+  return <Core>{children || `morning!`}</Core>;
 };
