@@ -7,7 +7,9 @@
     ]
   },
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "dev:playground": "cd playground && yarn start"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
